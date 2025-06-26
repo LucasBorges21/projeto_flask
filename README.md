@@ -19,24 +19,21 @@ Este é um projeto em desenvolvimento com o objetivo de praticar e consolidar co
 
 ## Estrutura do projeto
 PROJETO_FLASK/
-│
 ├── app/
-│ ├── static/ # Arquivos estáticos (CSS, JS, imagens)
-│ │ ├── css/
-│ │ ├── img/
-│ │ │ └── logo.png
-│ │ └── js/
-│ ├── templates/ # Templates HTML com Jinja2
-│ │ ├── index.html
-│ │ └── cadastro.html
-│ ├── init.py # Inicialização da aplicação Flask
-│ ├── forms.py # Formulários com Flask-WTF
-│ ├── models.py # Definição de tabelas com SQLAlchemy
-│ └── routes.py # Rotas da aplicação
-│
-├── instance/ # Configurações específicas por ambiente
-│
-├── migrations/ # Mapeamento de versões do banco (Flask-Migrate)
-│
-├── main.py # Arquivo de entrada da aplicação
-├── .gitignore # Arquivos/ pastas ignorados pelo Git
+│   ├── static/
+│   │   ├── css/
+│   │   ├── img/
+│   │   │   └── logo.png
+│   │   └── js/
+│   ├── templates/
+│   │   ├── index.html
+│   │   └── cadastro.html
+│   ├── __init__.py
+│   ├── forms.py
+│   ├── models.py
+│   └── routes.py
+├── instance/
+├── migrations/
+├── main.py
+├── .gitignore
+
